@@ -35,7 +35,7 @@ The boxer entity is the primary entity in our data model, and contains attribu
 
 ## Queries:
 
-1. This query collects the info the the primary key of the fight, the date and what state the fight happened in so that we can sort which ones are in hotspot locations.
+1. This query collects the info the the primary key of the fight, the date and what state the fight happened in.
 
 ![query1](https://i.imgur.com/RxcABLe.png)
 
@@ -88,13 +88,14 @@ The query helps compare gym pricing across states, providing insights into regio
 
 ![query9](https://i.imgur.com/KLjH2ri.png)
 
-This query is especially useful for finding the deadliest or most aggressive fighter.
+This query is especially useful for finding the deadliest or most aggressive fighter. KO percentage is a valuable metric which is a key indicator of what ratio of fights end in a knockout, an unequivocal blow for the opponent.
+
 
 10. This query uses the names of trainers, their years of experience, and sums up the amount of wins they have had over the years.
 
 ![query10](https://i.imgur.com/PF8NeAK.png)
 
-This query is useful for seeing what boxers have accumulated the most wins over the most years.
+This query is useful for seeing what boxers have accumulated the most wins over the years. The query shows how good and experienced a trainer is.
 
 
 ## Database information
