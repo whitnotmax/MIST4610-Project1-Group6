@@ -41,9 +41,9 @@ The boxer entity is the primary entity in our data model, and contains attribu
 ![query1](https://i.imgur.com/RxcABLe.png)
 
 In this scenario, we have sorted all fights that take place in the state of California. This query is justified so that we are able to see what fights happened in hotspots for boxing, such as the state of California which has been a popular destination for boxing fights.
-
-
-
+ 
+ 
+ 
 2. This query displays every state and the average membership fee of the state, which is calculated using the AVG() function and GROUP BY, adding a maximum average of $50 that will be displayed.
 
 ![query2](https://i.imgur.com/uF284dl.png)
