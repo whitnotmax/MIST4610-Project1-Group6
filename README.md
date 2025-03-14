@@ -76,4 +76,5 @@ This query is useful for seeing what boxers have accumulated the most wins over 
 
 ## Database information
 ![table](https://i.imgur.com/yU6vi2a.png)
+
 Database name: ha_group6_crn61608
