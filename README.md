@@ -48,11 +48,11 @@ In this scenario, we have sorted all fights that take place in the state of Cali
 
 This query gives great insights into how expensive it would be to train in each state, which would be good information to know for a boxer who is considering a move.
 
-3. Since most information is staying the same except the discounted membership fee, we kept the gym_name and state to see what gyms are eligible to reduce their price. This led us to then create a new field for the new discounted fee.
+3. All gyms in california are discounting their membership fee by 20% due to new state regulations. List the gym name, the original price, and the new discounted price.
 
 ![query3](https://i.imgur.com/VaVH0ZP.png)
 
-We made this query so the boxers can see if maybe a former place they wanted to train at costs less know, and which locations best fall in line with their finances. 
+Since most information is staying the same except the discounted membership fee, we kept the gym_name and state to see what gyms are eligible to reduce their price. This led us to then create a new field for the new discounted fee. We made this query so the boxers can see if maybe a former place they wanted to train at costs less know, and which locations best fall in line with their finances. 
 
 4. This simple query uses columns from the boxer table to count all rows where a boxer has no losses.
 
@@ -60,17 +60,17 @@ We made this query so the boxers can see if maybe a former place they wanted to 
 
 This query is important because it finds the best boxers in our data model. A boxer is among the best of the best if they are truly undefeated, and in this case, two of the boxers in our database are undefeated.
 
-5. This query uses the boxer, fight, and boxer_fight tables to find information about fights certain boxers have competed in. In this case, we have decided to look at the information from fights Mike Tyson has participated in.
+5. This query uses the boxer, fight, and boxer_fight tables to find information about fights Mike Tyson Has competed in. 
 
 ![query5](https://i.imgur.com/RFBs8du.png)
 
 This query is useful when it comes to finding information about a specific boxer. Instead of scrolling through a long list of boxers that have competed in all these fights, you can simply sort by first and last name to efficiently find a specific boxer.
 
-6. This query uses the gym, trainer, and boxer tables to find the total number of boxers who are using a gym. This sorts the table by descending to find the most popular gym.
+6. This query uses the gym, trainer, and boxer tables to find the total number of boxers who are using a gym, sorting table by descending.
 
 ![query6](https://i.imgur.com/5tjHnbk.png)
 
-This query would be useful for a boxer evaluating their gym options, trying to get the most value out of their membership fee.
+This query would be useful for finding the most popular gym. We decided the most “popular gym” would be determined by the total number of boxers at a particular gym. This is helpful for a boxer evaluating their gym options, trying to get the most value out of their membership fee.
 
 7. This query shows the boxers whose trainers work at the gym with the lowest membership fee.
 
@@ -82,9 +82,9 @@ This query identifies boxers training at the most affordable gym which helps ana
 
 ![query8](https://i.imgur.com/HaRuiyQ.png)
 
-The query helps compare gym pricing across states, providing insights into regional cost differences and identifying premium gyms in each state. 
+The query helps compare gym pricing across states, providing insights into regional cost differences and identifying premium gyms in each state. This is also helpful for both boxers and trainers in determining what gyms they’d rather train at, based on their personal financial preferences.
 
-9. This specific query retrieves the top 5 boxers with the highest knockout percentage by calculating their knockout rate and ordering them in descending order.
+9. This query retrieves the top 5 boxers with the highest knockout percentage by calculating their knockout rate and ordering them in descending order.
 
 ![query9](https://i.imgur.com/KLjH2ri.png)
 
