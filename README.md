@@ -12,7 +12,7 @@
 
 ## Problem Description:
 
-We’re taking the sport of professional boxing and taking the components of the boxers, the trainers, the fights, the gyms, and the relationship between them.
+We designed the Boxing Management Database to take the sport of professional boxing and take the components of the boxers, the trainers, the fights, the gyms, and the relationship between them. We wanted to use this project as an opportunity to dive into data modeling and SQL in a way that was engaging and interesting to us and our audience. Boxing’s long history and deep talent pool made it the perfect subject, giving us plenty of interesting data to structure and analyze.
 
 
 ## Data Model:
