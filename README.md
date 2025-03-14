@@ -24,26 +24,31 @@ The boxer entity is the primary entity in our data model, and contains attribu
 
 ## Data Dictionary:
 ![Data_Dictionary](https://i.imgur.com/YuOUm5z.png)
+
 Boxers are the main points of action in the fight. Each boxer is given a unique boxer ID, which is our primary key. We’ve recorded PII’s such as first and last name and which are both VARCHAR, with a data type size cap of 45. Their date of birth is recorded also. Additionally, we track the records of the boxers in this area including wins, losses, and knockouts. 
 
 
 
 ![Data_Dictionary](https://i.imgur.com/yNjY4Zj.png)
+
 The fight table stores information about boxing matches. Each fight has a fight ID, which serves as its primary key. We store other information about the fight, like its date, address, city, state, weight class, and the number of rounds scheduled. This table helps track details of boxing matches, including location, weight class, and duration, making it essential for fight history records and analysis.
 
 
 
 ![Data_Dictionary](https://i.imgur.com/RZ0YNI2.png)
+
 The Boxer_Fight table connects boxers and fights, as it’s a many to many relationship, enabling us to use a boxer_id to track a boxer's fight history and a fight_id to access specific fight details.
 
 
 
 ![Data_Dictionary](https://i.imgur.com/WJyC1hu.png)
+
 In the “trainer” entity, we have included the column name, a description of what each id means, what data type each is classified as, the size of the data type, and the different key types visible in the entity. Each trainer is given a specific trainer ID that acts as the primary key, serving as the unique identifier for the trainer. This is formatted as an integer. We’ve also included first and last name, birth date, years of experience, and the amount of championships each trainer has won. This is helpful in determining their tenure and win percentage.
 
 
 
 ![Data_Dictionary](https://i.imgur.com/nJbouYe.png)
+
 Each gym has a gym ID, which serves as its primary key unique identifier. We store other information about the gym like its name, address, city, state, date established, and the membership fee. Each gym stores the foreign key of the trainer who is assigned to the gym.
 
 
